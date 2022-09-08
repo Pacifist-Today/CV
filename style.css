@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: gray;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.left_side_articles {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.left_side_clauses {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: white;
+    padding-left: 10px;
+}
+
+.left_side_links {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #718ab0;
+}
+
+.left_side_block {
+    margin-top: 25px;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.right_side_articles {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.right_side_articles_name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: black;
+
+}
+
+.right_side_articles_description {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.right_side_clauses {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.right_side_links {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #718ab0;
+}
+
+.right_side_block {
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 1100px;
+}
+
+/*Left side*/
+
+.left_side {
+    display: flex;
+    flex-direction: column;
+    background-color: #1E2939
+}
+
+.photo_author {
+    width: 300px;
+}
+
+.english_link {
+    padding-left: 10px;
+}
+
+/*Right side*/
+
+.right_side {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 50px;
+}
+
+.name_surname {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: black;
+}
+
+.occupation {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.single_project_block {
+    margin-bottom: 20px;
+}
+
+.publication_describing {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.courses_block {
+    display: flex;
+    flex-direction: column;
+}
