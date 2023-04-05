@@ -36,6 +36,12 @@ body {
     width: 300px;
     padding-left: 20px;
     padding-right: 20px;
+
+    /*////*/
+
+    /*position: relative;*/
+    /*padding-top: 30px;*/
+
 }
 
 .right_side_articles {
@@ -44,6 +50,36 @@ body {
     line-height: 27px;
     color: black;
     margin-bottom: 15px;
+
+    /////
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /*////*/
+
+    /*position: absolute;*/
+    /*left: 40px;*/
+    /*top: 29px;*/
+    /*background: #fff;*/
+    /*padding: 0 10px;*/
+
+}
+
+.right_side_articles::before,
+.right_side_articles::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+
+.right_side_articles:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.right_side_articles:not(:empty)::after {
+    margin-left: .25em;
 }
 
 .right_side_articles_name {
